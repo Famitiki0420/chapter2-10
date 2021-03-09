@@ -50,7 +50,7 @@ main {
 
 .contents-step {
   background-color: #FF9A4B;
-  color: #EEEEEE;
+  color: #ffffff;
   position: absolute;
   top: 0;
   left: 0;
@@ -62,4 +62,24 @@ main {
 footer {
   height: 50px;
   background-color: #AAAAAA;
+}
+
+@media screen and (max-width:768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+  .contents {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .contents:last-child {
+    margin: 0 auto;
+  }
+
 }
